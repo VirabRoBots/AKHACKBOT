@@ -427,7 +427,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("Owner", "https://t.me/LegendBoy_XD")
+    Button.url("Owner", "https://t.me/AlluKishore_Official")
     ]
 ]
 
@@ -444,7 +444,7 @@ async def op(event):
   else:
     legendbye = [
       [
-        Button.url("Must Join", f"https://t.me/LegendBot_AI")
+        Button.url("Must Join", f"https://t.me/Virab_Bot_Updates")
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=legendbye)
@@ -485,7 +485,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("Owner", "https://t.me/LegendBoy_XD")
+        Button.url("Owner", "https://t.me/AlluKishore_Official")
         ]
     ]
     await x.send_message(f"Choose what you want with string session \n\n{menu}", buttons=keyboard)
